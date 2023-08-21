@@ -25,7 +25,7 @@
     display: none;
 }
 
-@media and (min-width: 1024px)
+@media and (min-width: 1024px){
     .container__titulo{
         font-family: var(--fonte-secundaria);
         font-size: 30px;
