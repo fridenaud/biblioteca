@@ -17,15 +17,17 @@
 .container{
     display: flex;
     align-items: center;
-}  
+}
+
 .container__imagem{
     padding: 1em;
 }
+
 .container__titulo{
     display: none;
 }
 
-@media and (min-width: 1024px){
+@media screen and (min-width: 1024px){
     .container__titulo{
         font-family: var(--fonte-secundaria);
         font-size: 30px;
@@ -36,3 +38,4 @@
         font-weight: 700;
     }
 }
+
